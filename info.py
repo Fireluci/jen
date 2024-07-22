@@ -14,11 +14,11 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '1736204'))
 API_HASH = environ.get('API_HASH', '890d40e0f91a4de32dec2965444b2cbe')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6159823074:AAEUgLsUdv_WR2zn0C7yLJHhZ6aZx_L9S18')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6007401862:AAEBr2puNIJehesIbeGyp-0KxLqPiKtkFes')
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Heroflix:Heroflix@heroflix.6sgi15o.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Ariana")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ariana')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jennie:jennie@jennie.txzzrzm.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "jennie")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jennie')
 
 DWLD = environ.get("DWLD", 'HeroFlixx/8')
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -48,9 +48,9 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '5522a206a215a0f6328b639b3d4dbbae9db1b936')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fd3700c2b48e62d20a845be3faf499dccf6762c1')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'easysky.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '5522a206a215a0f6328b639b3d4dbbae9db1b936')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'fd3700c2b48e62d20a845be3faf499dccf6762c1')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
