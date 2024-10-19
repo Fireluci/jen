@@ -1811,7 +1811,7 @@ async def advantage_spell_chok(client, msg):
     find = mv_rqst.split(" ")
     query = ""
     removes = ["in","upload", "series", "and", "&", "hollywood", "audio", "language", "horror", "movi", "movie", "hd", "4k", "film", "seasons", "dub", "dubbed", "send", "dupped", "2k", "bollywood", "anime", "netflix", "print", "file"]
-            for x in find:
+    for x in find:
         if x in removes:
             continue
         else:
