@@ -247,7 +247,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(900)
+        await asyncio.sleep(1200)
         await k.edit("<b>Link Deleted!</b>")
         return
         
@@ -270,7 +270,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(900)
+        await asyncio.sleep(1200)
         await k.edit("<b>Link Deleted!</b>")
         return
         
@@ -346,7 +346,7 @@ async def start(client, message):
                     ]
                 )
             )
-            await asyncio.sleep(900)
+            await asyncio.sleep(1200)
             await k.edit("Link Deleted!")
             return
     user = message.from_user.id
