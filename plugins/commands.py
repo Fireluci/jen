@@ -247,7 +247,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(1200)
+        await asyncio.sleep(900)
         await k.edit("<b>Link Deleted!</b>")
         return
         
@@ -270,7 +270,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(1200)
+        await asyncio.sleep(900)
         await k.edit("<b>Link Deleted!</b>")
         return
         
@@ -326,7 +326,7 @@ async def start(client, message):
     elif data.startswith("files"):
         user = message.from_user.id
         if temp.SHORT.get(user)==None:
-            await message.reply_text(text="<b>Link Expired, Search Again in Group!</b>")
+            await message.reply_text(text="<b>❗️Link Expired, Search Again in Group!</b>")
             return
         else:
             chat_id = temp.SHORT.get(user)
@@ -346,7 +346,7 @@ async def start(client, message):
                     ]
                 )
             )
-            await asyncio.sleep(1200)
+            await asyncio.sleep(900)
             await k.edit("Link Deleted!")
             return
     user = message.from_user.id
